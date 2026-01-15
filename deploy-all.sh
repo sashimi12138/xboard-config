@@ -59,7 +59,7 @@ if [ ! -f "xboard.conf" ]; then
     read -p "请输入 Xboard API Token: " API_TOKEN
     
     cat > xboard.conf <<EOF
-PANEL_URL="shukevpn.com"
+PANEL_URL="https://shukevpn.com"
 API_TOKEN="a0jabOuWeqdqTLXI7ybNMumd9"
 EOF
     echo -e "${GREEN}✓ 配置已保存${NC}"
