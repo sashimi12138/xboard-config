@@ -1,0 +1,29 @@
+{
+  "panelType": "xboard",
+  "panels": {
+    "mihomo": [
+      {"url": "https://site1.com", "description": "shukevpn.com"},
+      {"url": "https://site2.net", "description": "shuke001.top"},
+      {"url": "https://site3.top", "description": "shuke002.top"}
+      {"url": "https://site3.top", "description": "shuke003.top"}
+    ]
+  },
+  "subscription": {
+    "urls": [
+      {
+        "url": "https://shukevpn.com",
+        "description": "订阅服务器",
+        "endpoints": {
+          "v2": {
+            "path": "/api/v2/subscription-encrypt/{token}",
+            "requiresToken": true,
+            "method": "GET"
+          }
+        }
+      }
+    ]
+  },
+  "ws": [
+    {"url": "wss://site1.com/ws/", "description": "WebSocket"}
+  ]
+}
