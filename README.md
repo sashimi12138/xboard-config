@@ -1,0 +1,2 @@
+# xboard-config
+Xboard configuration
