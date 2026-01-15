@@ -2,26 +2,16 @@
   "panelType": "xboard",
   "panels": {
     "mihomo": [
-      {"url": "https://43.248.78.186:8888", "description": "国内中转"},
-      {"url": "https://shukevpn.com", "description": "直连备用"}
+      {"url": "https://shukevpn.com", "description": "主站"},
+      {"url": "https://shuke001.top", "description": "备用1"},
+      {"url": "https://shuke002.top", "description": "备用2"}
     ]
   },
   "subscription": {
     "urls": [
       {
-        "url": "https://43.248.78.186:7880",
-        "description": "订阅中转",
-        "endpoints": {
-          "v2": {
-            "path": "/api/v2/subscription-encrypt/{token}",
-            "requiresToken": true,
-            "method": "GET"
-          }
-        }
-      },
-      {
         "url": "https://shukevpn.com",
-        "description": "订阅直连备用",
+        "description": "订阅服务器",
         "endpoints": {
           "v2": {
             "path": "/api/v2/subscription-encrypt/{token}",
